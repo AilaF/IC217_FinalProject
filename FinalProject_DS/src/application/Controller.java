@@ -22,22 +22,21 @@ import javafx.stage.Stage;
 
 public class Controller implements Initializable {
 	
-		@Override
-		public void initialize(URL url, ResourceBundle rb) {
+	@Override
+	public void initialize(URL url, ResourceBundle rb) {
     }
-		@FXML
-	    private TextField email, username, name, loginName;
-	    @FXML
-	    private Text lblUsernameTaken, lblIncFields, lblUnregisteredUser, txtsignUp, logIn;
-	    @FXML
-	    private PasswordField password, logPassword;
-	    @FXML
-	    private Button signUp, btnBack, btnLogin;	    
-	    @FXML
-	    private Pane login;    
-	    @FXML
-	    private VBox vbox;
-
+	@FXML
+	private TextField email, username, name, loginName;
+	@FXML
+	private Text lblUsernameTaken, lblIncFields, lblUnregisteredUser, txtsignUp, logIn;
+	@FXML
+	private PasswordField password, logPassword;
+	@FXML
+	private Button signUp, btnBack, btnLogin;	    
+	@FXML
+	private Pane login;    
+	@FXML
+	private VBox vbox;
 	
 	private Stage stage;
 	private Scene scene;
